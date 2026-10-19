@@ -38,12 +38,13 @@ M2A consists of four phases:
 
 The final merge rule is:
 
-\[
-W_{\mathrm{merge}}^{(l)} =
+$$
+W_{\mathrm{merge}}^{(l)}
+=
 W_{\mathrm{agent}}^{(l)}
 +
-M_l\alpha_l\widetilde{\Delta W}_{\mathrm{reason}}^{(l)}.
-\]
+M_l \alpha_l \widetilde{\Delta W}_{\mathrm{reason}}^{(l)}
+$$
 
 ## 🛠️ Installation
 
@@ -114,11 +115,12 @@ output_dir/
 If you find M2A useful in your research, please cite our NeurIPS 2026 paper:
 
 ```bibtex
-@inproceedings{wang2026m2a,
-  title     = {M2A: Synergizing Mathematical and Agentic Reasoning in Large Language Models},
-  author    = {Wang, Junjian and Zhou, Xin and Xu, Qiran and Zhan, Kun},
-  booktitle = {Advances in Neural Information Processing Systems},
-  year      = {2026}
+@article{wang2026m2a,
+  title   = {M2A: Synergizing Mathematical and Agentic Reasoning in Large Language Models},
+  author  = {Wang, Junjian and Zhou, Xin and Xu, Qiran and Zhan, Kun},
+  journal = {arXiv preprint arXiv:2605.09879},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2605.09879}
 }
 ```
 
