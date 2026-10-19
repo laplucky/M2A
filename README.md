@@ -24,7 +24,6 @@ On **SWE-Bench Verified**, M2A improves an 8B coding agent's resolved rate from 
 | Qwen3-8B / Mini-SWE-Agent / SWE-Bench Verified | 42.6% | **46.4%** | +3.8 pp |
 | Qwen3-8B / R2E / SWE-Bench Verified | 46.6% | **49.8%** | +3.2 pp |
 | Qwen3-8B / GAIA | 73.33% | **78.79%** | +5.46 pp |
-| Qwen3-8B / BFCL V4 | 31.67% | **34.01%** | +2.34 pp |
 
 These results demonstrate that M2A effectively synergizes mathematical and agentic reasoning, consistently improving agent performance across diverse settings.
 
