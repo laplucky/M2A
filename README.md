@@ -36,16 +36,6 @@ M2A consists of four phases:
 3. **Behavior-Preserving Null-Space Projection:** Identify agent-critical behavioral subspaces from calibration activations and project reasoning updates into their null spaces.
 4. **Merge Write-Back:** Integrate the projected reasoning updates into the agent model.
 
-The final merge rule is:
-
-$$
-W_{\mathrm{merge}}^{(l)}
-=
-W_{\mathrm{agent}}^{(l)}
-+
-M_l \alpha_l \widetilde{\Delta W}_{\mathrm{reason}}^{(l)}
-$$
-
 ## 🛠️ Installation
 
 ```bash
